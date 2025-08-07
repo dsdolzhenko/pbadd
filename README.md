@@ -15,10 +15,16 @@ You can then paste these files into any application that accepts them - paste im
 ### Prerequisites
 
 - macOS 11.0 or later (Big Sur or newer)
-- Xcode Command Line Tools or full Xcode installation
+- Xcode Command Line Tools
 - Make
 
-### Install
+### Using homebrew
+
+```bash
+brew install dsdolzhenko/tools/pbadd
+```
+
+### From sources
 
 ```bash
 make && sudo make install
@@ -30,18 +36,6 @@ To install to a different location:
 
 ```bash
 make && make install PREFIX=/your/custom/path
-```
-
-### Uninstall
-
-```bash
-make uninstall
-```
-
-or
-
-```
-make uninstall PREFIX=/your/custom/path
 ```
 
 ## Usage
